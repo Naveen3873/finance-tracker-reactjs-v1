@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
-  base: '/finance-tracker-reactjs-v1s/',
+  base: '/finance-tracker-reactjs-v1/',
   build: {
     rollupOptions: {
       output: {
